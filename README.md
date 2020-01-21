@@ -70,5 +70,5 @@ app.use('/api/v1/users', userRoutes);
 
 ### config.env
 
-This file is for your environment variables, don't add it to git as it needs to be secret. For example, your secret for generating JSON Web Token will be there, as the url of your database. (pour l'exemple, il sera laissé dans le git).
+This file is for your environment variables, don't add it to git as it needs to be secret. For example, your secret for generating JSON Web Token will be there, as the url of your database. (for this example, it will be left in the project, you'll have to add it in the gitignore).
   
